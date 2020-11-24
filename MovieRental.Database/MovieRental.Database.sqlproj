@@ -94,10 +94,11 @@
     <Build Include="Procedures\Film\GetAllFSByTitle.sql" />
     <Build Include="Procedures\Film\GetAllFSByLanguageId.sql" />
     <Build Include="Procedures\Film\GetFilmById.sql" />
+    <Build Include="Procedures\Film\GetAllFSByKeyWords.sql" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="MovieRental.Database.publish.xml" />
     <None Include="Scripts\WorkScript.sql" />
+    <None Include="MovieRental.Database.publish.xml" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="MovieRental.Database.refactorlog" />

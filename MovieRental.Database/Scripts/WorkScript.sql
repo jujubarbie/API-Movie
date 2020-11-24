@@ -213,5 +213,9 @@ where FA.ActorId = 1
 
 
 
+SELECT F.FilmId, F.Title, F.ReleaseYear, F.[Description], F.Title From Film F 
+where F.[Description] Like '%girl%'
+OR F.Title Like '%girl%'
+
 
 
